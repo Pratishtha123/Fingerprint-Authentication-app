@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FingerPrint</string>
+    <string name="touch_the_sensor">Touch the sensor!</string>
+    <string name="welcome">Welcome!</string>
 </resources>
