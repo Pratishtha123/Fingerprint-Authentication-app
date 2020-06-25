@@ -1,6 +1,7 @@
 package com.paru.fingerprint
 
 import android.content.Context
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.hardware.biometrics.BiometricPrompt
 import android.hardware.fingerprint.FingerprintManager
@@ -33,6 +34,7 @@ class FingerPrintHelper(private val context: Context):FingerprintManager.Authent
     override fun onAuthenticationSucceeded(result: FingerprintManager.AuthenticationResult?) {
         super.onAuthenticationSucceeded(result)
         Toast.makeText(context,"Authentication Succeeded",Toast.LENGTH_SHORT).show()
+        context.startActivity(Intent(context,SuccessActivity::class.java))
     }
 
     override fun onAuthenticationHelp(helpCode: Int, helpString: CharSequence?) {
