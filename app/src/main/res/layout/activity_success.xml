@@ -14,7 +14,7 @@
         android:layout_centerInParent="true"
         android:textStyle="bold"
         android:textSize="50sp"
-        android:text="Welcome !"
+        android:text="@string/welcome"
         android:textColor="#ffffff"/>
 
 

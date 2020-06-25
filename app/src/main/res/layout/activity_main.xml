@@ -11,9 +11,9 @@
         android:id="@+id/imageView"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:layout_centerInParent="true"
-        android:src="@drawable/fingerprint"
-
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/fingerprint"/>
 
     <TextView
         android:id="@+id/tvMain"
@@ -23,7 +23,7 @@
         android:layout_centerHorizontal="true"
         android:textColor="#ffffff"
         android:textStyle="bold"
-        android:text="Touch the sensor!"
+        android:text="@string/touch_the_sensor"
         android:textSize="30sp"
         android:layout_marginVertical="25dp"/>
 
